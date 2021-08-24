@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:var(--coloryellow)
+}
+:root{
+    /*primarycolors*/
+    --coloryellow:#fcde67;
+    --colorblack:#030e12;
+    --colorneon:#5bccf6;
+    --colorwhite:white;
+}
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:var(--coloryellow);
+    height:auto;
+    width:80%;
+    width:100%;
+}
+nav{
+    background-color:var(--coloryellow);
+    width:80%;  
+    display:flex;
+    justify-content:space-between;
+    align-content:center; 
+    margin:auto;
+    height:auto;
+    padding:30px;
+}
+.logo{
+    color:var(--colorblack);
+    font-weight:700;
+    font-size:40px;
+}
+nav ol{
+    list-style-type:none;
+    display:flex;
+    align-self:center;
+}
+nav ol li{
+    margin-left:60px;
+}
+nav ol li:nth-child(1) a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+nav ol li:nth-child(1) a:hover{
+    border-bottom:3px solid var(--colorblack);
+}
+nav ol li:nth-child(2) button{
+    color:var(--colorblack);
+    background-color:white;
+    padding:5px 10px;
+    border:none;
+    border-radius:5px;
+    font-weight:bolder;
+}
+
+header div:nth-child(1){
+    width:80%;
+    margin:auto;
+    font-family:sans-serif;
+    padding-top:40px;
+    
+} 
+header div:nth-child(1) p:nth-child(1){
+    color:var(--colorwhite);
+    font-size:25px; 
+}
+header div:nth-child(1) p:nth-child(2){
+    color:var(--colorblack);
+    font-size:30px;
+    font-weight:bolder;
+    line-height:40px;
+}
+header div:nth-child(1) p:nth-child(3){
+    color:var(--colorwhite);
+    font-size:50px;
+    font-weight:700;
+}
+header div:nth-child(1) p:nth-child(4){
+    color:var(--colorblack);
+    font-weight:700;
+}
+header div:nth-child(2){
+    text-align:right;
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    padding-bottom:40px;
+}
+header div:nth-child(2) ol{
+    list-style-type:none;
+    color:white;
+    font-size:45px;
+    line-height:50px; 
+}
+.About_me{
+    height:80vh;
+    background-color:var(--colorneon);
+    width:100%;
+}
+
