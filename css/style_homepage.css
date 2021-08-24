@@ -33,7 +33,7 @@ nav{
 .logo{
     color:var(--colorblack);
     font-weight:700;
-    font-size:40px;
+    font-size:30px;
 }
 nav ol{
     list-style-type:none;
@@ -46,7 +46,7 @@ nav ol li{
 nav ol li:nth-child(1) a{
     color:white;
     text-decoration:none;
-    font-size:18px;
+    font-size:15px;
 }
 nav ol li:nth-child(1) a:hover{
     border-bottom:3px solid var(--colorblack);
@@ -58,6 +58,7 @@ nav ol li:nth-child(2) button{
     border:none;
     border-radius:5px;
     font-weight:bolder;
+    box-sizing:border-box;
 }
 
 header div:nth-child(1){
@@ -79,7 +80,7 @@ header div:nth-child(1) p:nth-child(2){
 }
 header div:nth-child(1) p:nth-child(3){
     color:var(--colorwhite);
-    font-size:50px;
+    font-size:30px;
     font-weight:700;
 }
 header div:nth-child(1) p:nth-child(4){
@@ -95,7 +96,7 @@ header div:nth-child(2){
 }
 header div:nth-child(2) ol{
     list-style-type:none;
-    color:white;
+    color:var(--colorblack);
     font-size:45px;
     line-height:50px; 
 }
