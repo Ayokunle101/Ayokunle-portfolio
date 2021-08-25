@@ -142,7 +142,7 @@ header div:nth-child(2) ol{
 .skills .subskills{
     width:85%;
     margin:auto;
-    color:white;
+    color:var(--colorwhite);
     display:grid;
     grid-template-columns:50% 50%;
     grid-auto-rows:minmax(200px,auto);
@@ -150,7 +150,6 @@ header div:nth-child(2) ol{
     margin-top:50px;
 }
 .subskills div{
-    border:2px solid var(--colorwhite);
     border-radius:12px;
     background-color:var(--colorblack);
     box-sizing:border-box;
@@ -160,9 +159,12 @@ header div:nth-child(2) ol{
     font-family:'Port Lligat Sans', sans-serif;
     padding-top:15px;
 }
+.subskills div ol{
+    margin-top:20px;
+}
 .subskills div ol li{
     list-style-type:none;
     margin-left:20px;
-    padding-top:10px;
+    padding-top:12px;
 }
 
