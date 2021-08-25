@@ -23,7 +23,7 @@ header{
 }
 nav{
     background-color:var(--coloryellow);
-    width:80%;  
+    width:85%;  
     display:flex;
     justify-content:space-between;
     align-content:center; 
@@ -42,7 +42,7 @@ nav ol{
     align-self:center;
 }
 nav ol li{
-    margin-left:60px;
+    margin-left:20px;
 }
 nav ol li:nth-child(1) a{
     color:white;
@@ -54,16 +54,17 @@ nav ol li:nth-child(1) a:hover{
 }
 nav ol li:nth-child(2) button{
     color:var(--colorblack);
-    background-color:white;
+    background-color:rgb(7, 7, 17);
     padding:5px 10px;
     border:none;
     border-radius:5px;
     font-weight:bolder;
     box-sizing:border-box;
+    color:white;
 }
 
 header div:nth-child(1){
-    width:80%;
+    width:85%;
     margin:auto;
     font-family:sans-serif;
     padding-top:40px;
@@ -86,7 +87,7 @@ header div:nth-child(1) p:nth-child(3){
 }
 header div:nth-child(2){
     text-align:right;
-    width:80%;
+    width:85%;
     margin:auto;
     margin-top:40px;
     padding-bottom:40px;
@@ -99,8 +100,39 @@ header div:nth-child(2) ol{
     font-weight:600;
 }
 .About_me{
-    height:80vh;
+    height:auto;
     background-color:var(--colorneon);
     width:100%;
+    padding:50px 0px;
+}
+.About_me .sub-aboutme{
+    width:85%;
+    margin:auto;
+    display:flex;
+    box-sizing:border-box;
+}
+.About_me .sub-aboutme div{
+    flex:50%;
+    height:auto;
+    box-sizing:border-box;
+}
+.sub-aboutme div:nth-child(1) h2{
+     font-size:25px;
+     font-weight:700;
+     padding:40px 0px;
+     font-family: 'Poppins', sans-serif;
+}
+.sub-aboutme div:nth-child(1) p{
+    font-family: 'Port Lligat Sans', sans-serif;
+    font-size:20px;
+    line-height:30px;
+}
+.sub-aboutme div:nth-child(2){
+    padding:0px 30px;
+}
+.sub-aboutme div:nth-child(2) img{
+    width:100%;
+    margin:120px 0px 0px 0px;
+    border-radius:20px;
 }
 
