@@ -110,6 +110,7 @@ header div:nth-child(2) ol{
     margin:auto;
     display:flex;
     box-sizing:border-box;
+    flex-direction:column;
 }
 .About_me .sub-aboutme div{
     flex:50%;
@@ -134,5 +135,34 @@ header div:nth-child(2) ol{
     width:100%;
     margin:120px 0px 0px 0px;
     border-radius:20px;
+}
+.skills{
+    height:55vh;
+}
+.skills .subskills{
+    width:85%;
+    margin:auto;
+    color:white;
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-auto-rows:minmax(200px,auto);
+    grid-gap:40px 20px;
+    margin-top:50px;
+}
+.subskills div{
+    border:2px solid var(--colorwhite);
+    border-radius:12px;
+    background-color:var(--colorblack);
+    box-sizing:border-box;
+}
+.subskills div h2{
+    text-align:center;
+    font-family:'Port Lligat Sans', sans-serif;
+    padding-top:15px;
+}
+.subskills div ol li{
+    list-style-type:none;
+    margin-left:20px;
+    padding-top:10px;
 }
 
