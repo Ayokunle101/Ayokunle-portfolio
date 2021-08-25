@@ -19,6 +19,7 @@ header{
     height:auto;
     width:80%;
     width:100%;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     background-color:var(--coloryellow);
@@ -33,7 +34,7 @@ nav{
 .logo{
     color:var(--colorblack);
     font-weight:700;
-    font-size:30px;
+    font-size:19px;
 }
 nav ol{
     list-style-type:none;
@@ -70,21 +71,17 @@ header div:nth-child(1){
 } 
 header div:nth-child(1) p:nth-child(1){
     color:var(--colorwhite);
-    font-size:25px; 
+    font-size:20px; 
 }
 header div:nth-child(1) p:nth-child(2){
     color:var(--colorblack);
-    font-size:30px;
-    font-weight:bolder;
+    font-size:23px;
+    font-weight:600;
     line-height:40px;
 }
 header div:nth-child(1) p:nth-child(3){
     color:var(--colorwhite);
     font-size:30px;
-    font-weight:700;
-}
-header div:nth-child(1) p:nth-child(4){
-    color:var(--colorblack);
     font-weight:700;
 }
 header div:nth-child(2){
@@ -97,8 +94,9 @@ header div:nth-child(2){
 header div:nth-child(2) ol{
     list-style-type:none;
     color:var(--colorblack);
-    font-size:45px;
+    font-size:30px;
     line-height:50px; 
+    font-weight:600;
 }
 .About_me{
     height:80vh;
