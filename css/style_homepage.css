@@ -82,8 +82,9 @@ header div:nth-child(1) p:nth-child(2){
 }
 header div:nth-child(1) p:nth-child(3){
     color:var(--colorwhite);
-    font-size:30px;
+    font-size:26px;
     font-weight:700;
+   
 }
 header div:nth-child(2){
     text-align:right;
@@ -98,6 +99,8 @@ header div:nth-child(2) ol{
     font-size:30px;
     line-height:50px; 
     font-weight:600;
+    border-right:5px solid var(--colorblack);
+    padding-right:10px;
 }
 .About_me{
     height:auto;
@@ -249,6 +252,9 @@ forms button{
     color:white;
     text-align:center;
 }
+.footer div:nth-child(2) div p:nth-child(2){
+    border:none;
+}
 div a{
     margin-left:20px;
     border:1px solid white;
@@ -276,11 +282,14 @@ div:nth-child(2) div div{
         grid-template-columns:repeat(4,25%);
         width:60%;
     }
+    .sub-aboutme div:nth-child(2){
+        padding-right:0px;
+    }
     .sub-aboutme div:nth-child(2) img{
         width:100%;
-        margin:120px auto 0px auto;
+        margin:0px;
         height:250px;
-        border-radius:0px;
+        border-radius:25px;
     }
     header div:nth-child(1) p:nth-child(1){
         color:var(--colorwhite);
@@ -294,7 +303,7 @@ div:nth-child(2) div div{
     }
     header div:nth-child(1) p:nth-child(3){
         color:var(--colorwhite);
-        font-size:50px;
+        font-size:60px;
         font-weight:700;
         padding-top:20px;
     }
@@ -311,8 +320,8 @@ div:nth-child(2) div div{
     header div:nth-child(2){
         width:60%;
     }
-    .About_me .sub-aboutme{
-        width:60%;
+     .About_me .sub-aboutme{
+        width:62%;
         margin:auto;
         display:flex;
         box-sizing:border-box;  
@@ -339,8 +348,19 @@ div:nth-child(2) div div{
     }
     .footer div:nth-child(2) div{
         color:white;
-        border:2px solid black;
-        
+        display:block;
+        border-right:2px solid white;
+        border-left:2px solid var(--colorwhite);
+        width:50%;
+        height:250px;
+    }
+    .footer div:nth-child(2) div p{
+        text-align:center;
+    }
+    .footer div:nth-child(2) div div{
+        border:0px;
+        height:auto;
+
     }
 }
     
