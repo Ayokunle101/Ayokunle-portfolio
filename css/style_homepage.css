@@ -110,7 +110,7 @@ header div:nth-child(2) ol{
     margin:auto;
     display:flex;
     box-sizing:border-box;
-    flex-direction:column;
+
 }
 .About_me .sub-aboutme div{
     flex:50%;
@@ -125,7 +125,7 @@ header div:nth-child(2) ol{
 }
 .sub-aboutme div:nth-child(1) p{
     font-family: 'Port Lligat Sans', sans-serif;
-    font-size:20px;
+    font-size:14px;
     line-height:25px;
 }
 .sub-aboutme div:nth-child(2){
@@ -134,10 +134,18 @@ header div:nth-child(2) ol{
 .sub-aboutme div:nth-child(2) img{
     width:100%;
     margin:120px 0px 0px 0px;
-    border-radius:20px;
+    border-radius:50%;
 }
 .skills{
-    height:60vh;
+    height:auto;
+    padding-bottom:40px;
+}
+.skills h2{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+    font-weight:700;
+    padding-top:10px;
 }
 .skills .subskills{
     width:85%;
@@ -146,15 +154,17 @@ header div:nth-child(2) ol{
     display:grid;
     grid-template-columns:50% 50%;
     grid-auto-rows:minmax(200px,auto);
-    grid-gap:40px 20px;
-    margin-top:60px;
+    grid-gap:20px 20px;
+    margin-top:40px;
+    border:none;
 }
 .subskills div{
     border-radius:12px;
     background-color:var(--colorblack);
     box-sizing:border-box;
+    border:none;
 }
-.subskills div h2{
+.subskills div h3{
     text-align:center;
     font-family:'Port Lligat Sans', sans-serif;
     padding-top:15px;
@@ -164,12 +174,97 @@ header div:nth-child(2) ol{
 }
 .subskills div ol li{
     list-style-type:none;
-    margin-left:20px;
+    padding-left:20px;
     padding-top:12px;
-    font-size:14px;
+    font-size:15px;
+    font-family:'Poppins', sans-serif;
 }
 .projects{
-    height:70vh;
+    height:auto;
     background-color:var(--colorneon);
+    text-align:center;
+    font-family:'Poppins', sans-serif;
+    padding-bottom:50px;
+} 
+.projects h2{
+    padding:40px 0px;
+    color:var(--colorblack);
+    font-size:30px;
+    font-weight:700;
 }
+.projects ol li{
+    list-style-type:circle;
+    padding-top:50px;
+    font-size:19px;
+    font-family:'Port Lligat Sans', sans-serif;
+    font-weight:bold;
+}
+.footer{
+    background-color:var(--colorblack);
+    height:80vh;
+    font-family:'Poppins', sans-serif;
+}
+.footer div{
+    margin:auto;
+    height:auto;
+    width:85%;
+}
+.footer div:nth-child(1){
+    color:white;
+    padding-top:30px;
+}
+.footer div:nth-child(2){
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+}
+.footer div:nth-child(2) forms{
+    text-align:center;
+} 
+forms{
+    height:auto;
+}
+forms label{
+    font-size:14px;
+    color:white;  
+}
+forms input{
+    margin-top:10px;
+    height:22px;
+}
+forms textarea{
+    height:70px;
+    margin-top:10px;
+}
+forms button{
+    background-color:var(--coloryellow);
+    color:white;
+    padding:2px 40px;
+    border-radius:5px;
+    margin-top:20px;
+}
+.footer div:nth-child(2) div{
+    color:white;
+    text-align:center;
+}
+.footer div:nth-child(2) div p{
+    text-align:left;
+}
+.footer div:nth-child(2) div p i[class="fas fa-phone"]{
+    margin-right:80px;
+}
+.footer div:nth-child(2) div p i[class="far fa-envelope"]{
+    margin-right:80px;
+}
+div a{
+    margin-left:20px;
+    border:1px solid white;
+    border-radius:50%;
+    padding:2px 4px;
+}
+div:nth-child(2) div div{
+    margin-top:50px;
+}
+    
+
 
