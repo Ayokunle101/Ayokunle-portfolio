@@ -32,7 +32,7 @@ nav{
     padding:30px;
 }
 .logo{
-    color:var(--colorneon);
+    color:var(--colorblack);
     font-weight:700;
     font-size:19px;
 }
@@ -45,9 +45,14 @@ nav ol li{
     margin-left:20px;
 }
 nav ol li:nth-child(1) a{
-    color:white;
+    color:var(--colorwhite);
     text-decoration:none;
     font-size:15px;
+    font-weight:bold;
+    background-color:var(--colorneon);
+    padding:3px 5px;
+    border-radius:5px;
+
 }
 nav ol li:nth-child(1) a:hover{
     border-bottom:3px solid var(--colorblack);
@@ -71,8 +76,9 @@ header div:nth-child(1){
     
 } 
 header div:nth-child(1) p:nth-child(1){
-    color:var(--colorwhite);
+    color:var(--colorneon);
     font-size:20px; 
+    font-weight:bold;
 }
 header div:nth-child(1) p:nth-child(2){
     color:var(--colorblack);
@@ -267,6 +273,9 @@ div:nth-child(2) div div{
 @media only screen and (min-width:650px){
     .header div:nth-child(1){
 
+    }
+    .logo{
+        font-size:30px;
     }
     body{
         background-color:var(--coloryellow);
