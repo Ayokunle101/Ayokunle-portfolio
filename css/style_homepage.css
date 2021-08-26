@@ -147,7 +147,7 @@ header div:nth-child(2) ol{
     font-weight:700;
     padding-top:10px;
 }
-.skills .subskills{
+.subskills{
     width:85%;
     margin:auto;
     color:var(--colorwhite);
@@ -257,6 +257,91 @@ div a{
 }
 div:nth-child(2) div div{
     margin-top:50px;
+}
+@media only screen and (min-width:650px){
+    .header div:nth-child(1){
+
+    }
+    body{
+        background-color:var(--coloryellow);
+    }
+    .footer{
+        height:auto;
+    }
+    .footer div:nth-child(2){
+        display:flex;
+        flex-direction:row;
+    }
+    .subskills{
+        grid-template-columns:repeat(4,25%);
+        width:60%;
+    }
+    .sub-aboutme div:nth-child(2) img{
+        width:100%;
+        margin:120px auto 0px auto;
+        height:250px;
+        border-radius:0px;
+    }
+    header div:nth-child(1) p:nth-child(1){
+        color:var(--colorwhite);
+        font-size:30px; 
+    }
+    header div:nth-child(1) p:nth-child(2){
+        color:var(--colorblack);
+        font-size:35px;
+        font-weight:600;
+        line-height:40px;
+    }
+    header div:nth-child(1) p:nth-child(3){
+        color:var(--colorwhite);
+        font-size:50px;
+        font-weight:700;
+        padding-top:20px;
+    }
+    header div:nth-child(2) ol{
+        list-style-type:none;
+        color:var(--colorblack);
+        font-size:40px;
+        line-height:50px; 
+        font-weight:600;
+    }
+    header div:nth-child(1){
+        width:60%;   
+    } 
+    header div:nth-child(2){
+        width:60%;
+    }
+    .About_me .sub-aboutme{
+        width:60%;
+        margin:auto;
+        display:flex;
+        box-sizing:border-box;  
+    }
+    .footer{
+        padding-bottom:50px;
+    }
+    .footer div:nth-child(1){
+        width:60%;
+    }
+    .footer div:nth-child(2){
+        width:60%;
+    }
+    .footer div:nth-child(2) forms{
+        text-align:left;
+    }
+    forms{
+        width:50%;
+    }
+    forms textarea{
+        height:70px;
+        width:200px;
+        margin-top:10px;
+    }
+    .footer div:nth-child(2) div{
+        color:white;
+        border:2px solid black;
+        
+    }
 }
     
 
