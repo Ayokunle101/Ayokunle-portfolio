@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color:var(--coloryellow)
+    background-color:var(--colorwhite);
 }
 :root{
     /*primarycolors*/
@@ -152,11 +152,13 @@ header div:nth-child(2) ol{
     margin:auto;
     color:var(--colorwhite);
     display:grid;
+    grid-gap:15px 15px;
     grid-template-columns:50% 50%;
     grid-auto-rows:minmax(200px,auto);
-    grid-gap:20px 20px;
-    margin-top:40px;
+    margin-top:20px;
     border:none;
+    box-sizing:border-box;
+    padding-right:15px;
 }
 .subskills div{
     border-radius:12px;
@@ -176,7 +178,7 @@ header div:nth-child(2) ol{
     list-style-type:none;
     padding-left:20px;
     padding-top:12px;
-    font-size:15px;
+    font-size:12px;
     font-family:'Poppins', sans-serif;
 }
 .projects{
@@ -246,12 +248,6 @@ forms button{
 .footer div:nth-child(2) div{
     color:white;
     text-align:center;
-}
-.footer div:nth-child(2) div p i[class="fas fa-phone"]{
-    margin-right:50px;
-}
-.footer div:nth-child(2) div p i[class="far fa-envelope"]{
-    margin-right:80px;
 }
 div a{
     margin-left:20px;
