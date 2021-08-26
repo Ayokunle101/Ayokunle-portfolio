@@ -32,7 +32,7 @@ nav{
     padding:30px;
 }
 .logo{
-    color:var(--colorblack);
+    color:var(--colorneon);
     font-weight:700;
     font-size:19px;
 }
@@ -289,7 +289,7 @@ div:nth-child(2) div div{
         width:100%;
         margin:0px;
         height:250px;
-        border-radius:25px;
+        border-radius:10px;
     }
     header div:nth-child(1) p:nth-child(1){
         color:var(--colorwhite);
@@ -360,7 +360,6 @@ div:nth-child(2) div div{
     .footer div:nth-child(2) div div{
         border:0px;
         height:auto;
-
     }
 }
     
