@@ -76,7 +76,7 @@ header div:nth-child(1){
     
 } 
 header div:nth-child(1) p:nth-child(1){
-    color:var(--colorneon);
+    color:var(--colorwhite);
     font-size:20px; 
     font-weight:bold;
 }
