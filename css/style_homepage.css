@@ -201,7 +201,7 @@ header div:nth-child(2) ol{
 }
 .footer{
     background-color:var(--colorblack);
-    height:80vh;
+    height:90vh;
     font-family:'Poppins', sans-serif;
 }
 .footer div{
@@ -247,11 +247,8 @@ forms button{
     color:white;
     text-align:center;
 }
-.footer div:nth-child(2) div p{
-    text-align:left;
-}
 .footer div:nth-child(2) div p i[class="fas fa-phone"]{
-    margin-right:80px;
+    margin-right:50px;
 }
 .footer div:nth-child(2) div p i[class="far fa-envelope"]{
     margin-right:80px;
