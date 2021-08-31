@@ -213,7 +213,7 @@ header div:nth-child(2) ol{
 }
 .footer{
     background-color:var(--colorblack);
-    height:90vh;
+    height:100vh;
     font-family:'Poppins', sans-serif;
 }
 .footer div{
@@ -231,25 +231,28 @@ header div:nth-child(2) ol{
     margin-top:30px;
 }
 .footer div:nth-child(2) forms{
-    text-align:center;
+    text-align:left;
 } 
 forms{
     height:auto;
+    font-family:'Poppins', sans-serif;
 }
 forms label{
-    font-size:14px;
+    font-size:15px;
     color:white;  
 }
 forms input{
     margin-top:10px;
-    height:22px;
+    height:40px;
+    width:80%;
 }
 forms textarea{
     height:70px;
     margin-top:10px;
+    width:100%;
 }
 forms button{
-    background-color:var(--coloryellow);
+    background-color:var(--colorneon);
     color:white;
     padding:2px 40px;
     border-radius:5px;
