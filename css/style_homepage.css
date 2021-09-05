@@ -152,10 +152,11 @@ header div:nth-child(2) ol{
 }
 .skills h2{
     text-align:center;
-    color:rgb(255, 255, 255);
+    color:var(--colorblack);
     font-family:'Poppins', sans-serif;
     font-weight:700;
     padding-top:10px;
+    text-decoration:underline;
 }
 .subskills{
     width:85%;
@@ -172,14 +173,16 @@ header div:nth-child(2) ol{
 }
 .subskills div{
     border-radius:12px;
-    background-color:var(--colorblack);
+    background-color:var(--colorneon);
     box-sizing:border-box;
     border:none;
+    box-shadow:-2px -2px 4px var(--colorblack);
 }
 .subskills div h3{
     text-align:center;
     font-family:'Port Lligat Sans', sans-serif;
     padding-top:15px;
+   
 }
 .subskills div ol{
     margin-top:20px;
@@ -190,6 +193,7 @@ header div:nth-child(2) ol{
     padding-top:12px;
     font-size:12px;
     font-family:'Poppins', sans-serif;
+    color:var(--colorblack);
 }
 .projects{
     height:auto;
@@ -257,6 +261,7 @@ forms button{
     padding:2px 40px;
     border-radius:5px;
     margin-top:20px;
+    height:50px;
 }
 .footer div:nth-child(2) div{
     color:white;
