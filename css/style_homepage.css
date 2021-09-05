@@ -147,6 +147,7 @@ header div:nth-child(2) ol{
     width:100%;
     margin:120px 0px 0px 0px;
     border-radius:10%;
+    filter:saturate(10%);
 
 }
 .skills{
