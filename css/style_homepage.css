@@ -206,6 +206,8 @@ header div:nth-child(2) ol{
     text-align:center;
     font-family:'Poppins', sans-serif;
     padding-bottom:50px;
+    border-left:2px solid var(--colorneon);
+    border-right:2px solid var(--colorneon);
 } 
 .projects h2{
     padding:40px 0px;
