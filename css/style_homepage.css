@@ -221,7 +221,7 @@ header div:nth-child(2) ol{
     font-weight:bold;
 }
 .footer{
-    background-color:var(--colorblack);
+    background-color:var(--colorneon);
     height:100vh;
     font-family:'Poppins', sans-serif;
 }
@@ -229,6 +229,9 @@ header div:nth-child(2) ol{
     margin:auto;
     height:auto;
     width:85%;
+}
+.footer div:nth-child(1) h4{
+    border-bottom:3px solid var(--colorwhite);
 }
 .footer div:nth-child(1){
     color:white;
@@ -258,10 +261,10 @@ forms input{
 forms textarea{
     height:70px;
     margin-top:10px;
-    width:100%;
+    width:80%;
 }
 forms button{
-    background-color:var(--colorneon);
+    background-color:var(--colorblack);
     color:white;
     padding:2px 40px;
     border-radius:5px;
