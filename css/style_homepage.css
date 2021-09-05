@@ -260,12 +260,14 @@ forms input{
     height:40px;
     width:80%;
     padding-left:20px;
+    border:none;
 }
 forms textarea{
     height:70px;
     margin-top:10px;
     width:80%;
     padding-left:20px;
+    border:none;
 }
 forms button{
     background-color:var(--colorblack);
