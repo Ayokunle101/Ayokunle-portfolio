@@ -106,7 +106,7 @@ header div:nth-child(2) ol{
     font-size:30px;
     line-height:50px; 
     font-weight:600;
-    border-right:5px solid var(--colorblack);
+    border-right:5px solid var(--colorwhite);
     padding-right:10px;
 }
 .About_me{
