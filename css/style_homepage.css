@@ -32,10 +32,10 @@ nav{
     padding:30px;
     font-family: 'Poppins', sans-serif;
 }
-.logo{
-    color:var(--colorblack);
-    font-weight:700;
-    font-size:19px;
+.logo img{
+    border-radius:50%;
+    width:60px;
+    height:60px;
 }
 nav ol{
     list-style-type:none;
