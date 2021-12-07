@@ -56,7 +56,6 @@ nav ul.active{
    flex-direction:column;
    width:25%;
    height:25vh;
-   border-right:1px solid var(--colorblack);
    box-sizing:border-box;
    padding-left:5px;
    position:absolute;
@@ -135,7 +134,12 @@ header div:nth-child(2){
     width:85%;
     margin:auto;
     margin-top:40px;
+    padding-top:20px;
     padding-bottom:40px;
+    margin-top:80px;
+    border-left:1px solid black;
+    box-shadow:-1px 0px 10px
+
 }
 header div:nth-child(2) ol{
     list-style-type:none;
@@ -179,6 +183,7 @@ header div:nth-child(2) ol{
 .sub-aboutme div:nth-child(2){
     padding:0px 50px;
     border-bottom:3px solid var(--colorneon);
+    box-shadow: 1px 1px 1px black;
 }
 .sub-aboutme div:nth-child(2) img{
     width:100%;
