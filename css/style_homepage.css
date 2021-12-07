@@ -60,7 +60,7 @@ nav ul.active{
    box-sizing:border-box;
    padding:20px;
    position:absolute;
-   right:2%;
+   right:5%;
    transition:all 0.5s ease;
    opacity:1;
 }
@@ -182,6 +182,7 @@ header div:nth-child(2) ol{
     width:100%;
     margin:120px 0px 0px 0px;
     filter:saturate(10%);
+    border-radius:10px;
 }
 .skills{
     height:auto;
@@ -210,7 +211,7 @@ header div:nth-child(2) ol{
 }
 .subskills div{
     border-radius:12px;
-    background-color:var(--colorblack);
+
     box-sizing:border-box;
     border:none;
     box-shadow:-2px -2px 4px var(--colorblack);
@@ -328,9 +329,30 @@ div a{
 div:nth-child(2) div div{
     margin-top:50px;
 }
+div h4{
+    color:var(--colorblack);
+    text-decoration:underline;
+}
+#name{
+    border-radius:5px;
+}
+#phone-number{
+    border-radius:5px;
+}
+#text-area{
+    border-radius:5px;
+}
 @media only screen and (min-width:650px){
     .header div:nth-child(1){
 
+    }
+    #mobile_menu{
+        display:none;
+    }
+    nav ul {
+        display:flex;
+        flex-direction:row;
+        position:relative;
     }
     .logo{
         font-size:30px;
