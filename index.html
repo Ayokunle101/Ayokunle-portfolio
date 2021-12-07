@@ -18,24 +18,29 @@
 <body>
     <!-----navigation bar-->
     <nav >
-     <a class="logo"><img src="image/brand logo.png"></a>
-     <ol>
-         <li><a href="#contactme">Contact Me</a></li>
-         <li><button type="button" id="btn-resume" onclick="myfunc()">Resume</button></li>
-     </ol>
+     <a class="logo">kunle<strong>Codes</strong></a>
+     <ul id="menu_list">
+         <li><a href="/contacts">contact</a></li>
+         <li><a href="/projects">projects</a></li>
+         <li><a href="/resume">Resume</a></li>
+     </ul>
+     <div id="mobile_menu" class="menu_toggle">
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>   
+     </div>
     </nav>
     <!-----header-->
     <header>
         <div>
-            <p>Hello,</p>
-            <p>My name is</p>
+            <p>Hello, ~i am</p>
             <p>Alabi Ayokunle</p>
         </div>
         <div>
             <ol>
-          <li>icode</li>
-          <li>idesign</li>
-          <li>idevelop</li>
+          <li id="icode">icode</li>
+          <li class="idesign">idesign</li>
+          <li class="idevelop">idevelop</li>
             </ol>
         </div>
     </header>
@@ -132,5 +137,6 @@
              </div>
         </div>
     </section>
+    <script src="javascript/portfolio.js"></script>
 </body>
 </html>
