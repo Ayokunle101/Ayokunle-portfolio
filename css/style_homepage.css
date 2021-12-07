@@ -56,13 +56,16 @@ nav ul.active{
    flex-direction:column;
    width:25%;
    height:25vh;
-   border-left:1px solid var(--colorblack);
+   border-right:1px solid var(--colorblack);
    box-sizing:border-box;
-   padding:20px;
+   padding-left:5px;
    position:absolute;
-   right:5%;
+   right:20%;
    transition:all 0.5s ease;
    opacity:1;
+}
+.resume a:hover{
+   color:black;
 }
 nav ul.active li{
     padding-bottom:40px;
@@ -82,7 +85,6 @@ nav ul.active li{
     background:#FFF;
     top:1%;
     cursor:pointer;
-    
 }
 #mobile_menu.is-active .bar{
     background-color:black;
