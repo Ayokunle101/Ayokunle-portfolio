@@ -7,3 +7,12 @@ body{
     margin:0;
     padding:0;
 }
+ul{
+    height:auto;
+    padding:20px;
+    width:90%;
+    border-top:2px solid white;
+    margin:auto;
+    margin-top:40px;
+    display:block;
+}
