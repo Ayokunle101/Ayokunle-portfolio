@@ -15,9 +15,7 @@ body{
     padding:0;
 }
 header{
-    background-color:;
     height:auto;
-    width:80%;
     width:100%;
     font-family: 'Poppins', sans-serif;
 }
@@ -44,6 +42,9 @@ nav ul li a{
     color:white;
     cursor:pointer;
 }
+nav ul li a:hover{
+    border-bottom:2px solid white;
+}
 .logo{
     color:white;
 }
@@ -63,11 +64,8 @@ nav ul.active{
    transition:all 0.5s ease;
    opacity:1;
 }
-.resume a:hover{
-   color:black;
-}
 nav ul.active li{
-    padding-bottom:40px;
+    padding-bottom:30px;
 }
 #mobile_menu{
     position:absolute;
@@ -183,7 +181,6 @@ header div:nth-child(2) ol{
 .sub-aboutme div:nth-child(2){
     padding:0px 50px;
     border-bottom:3px solid var(--colorneon);
-    box-shadow: 1px 1px 1px black;
 }
 .sub-aboutme div:nth-child(2) img{
     width:100%;
@@ -218,10 +215,9 @@ header div:nth-child(2) ol{
 }
 .subskills div{
     border-radius:12px;
-
     box-sizing:border-box;
     border:none;
-    box-shadow:-2px -2px 4px var(--colorblack);
+    box-shadow:2px 2px  4px var(--colorblack);
 }
 .subskills div h3{
     text-align:center;
@@ -333,8 +329,9 @@ div a{
     border-radius:50%;
     padding:2px 4px;
 }
-div:nth-child(2) div div{
+div:nth-child(2) div ul{
     margin-top:50px;
+    list-style-type:none;
 }
 div h4{
     color:var(--colorblack);
@@ -367,10 +364,23 @@ div h4{
     body{
         background-color:var(--coloryellow);
     }
+    nav{
+        position:relative;
+        display:flex;
+
+    }
     nav ul{
         list-style-type:none;
-        display:flex; 
+        display:flex;
+        opacity:1; 
+        position:relative;
+        right:0%;
+        margin:0px;
     }
+    nav ul li a{
+        color:var(--colorblack);
+    }
+   
     .footer{
         height:auto;
     }
@@ -384,11 +394,14 @@ div h4{
     }
     .sub-aboutme div:nth-child(2){
         padding-right:0px;
+        margin-top:80px;
+        margin-bottom:50px;
     }
     .sub-aboutme div:nth-child(2) img{
-        width:100%;
+        width:60%;
         margin:0px;
-        height:250px;
+        margin-left:100px;
+        height:200px;
         border-radius:10px;
     }
     header div:nth-child(1) p:nth-child(1){
@@ -449,7 +462,7 @@ div h4{
     .footer div:nth-child(2) div{
         color:white;
         display:block;
-        border-right:2px solid white;
+        border-right:2px solid var(--colorblack);
         border-left:2px solid var(--colorwhite);
         width:50%;
         height:250px;
@@ -457,13 +470,13 @@ div h4{
     .footer div:nth-child(2) div p{
         text-align:center;
     }
-    .footer div:nth-child(2) div div{
+    .footer div:nth-child(2) div ul{
         border:0px;
         height:auto;
+        padding:20px;
+        box-sizing:border-box;
     }
-    .resume{
-        display:none;
-    }
+    
 }
     
 
